@@ -1,0 +1,204 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    color: rgb(196, 196, 196);
+    
+}
+
+h1 {
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+.done-hidden{
+    display: none;
+}
+
+.done-show{
+    display: inline-block;
+}
+
+/* ************************NAVBAR */
+.nav-bar {
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-bar li {
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+#active {
+    border-bottom: 2px solid gray;
+    padding: 6px;
+}
+
+body {
+    background-color: rgb(22, 21, 29);
+}
+/* ******************CALENDAR******************** */
+.calendar {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(22, 21, 29);
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.calendar_square {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(22, 21, 29);
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 100px;
+}
+
+.calendar_date {
+    padding-top: 5px;
+    margin: 0;
+    display: inline-block;
+    color: rgb(168, 168, 168);
+
+}
+.today {
+    /* padding-top: 5px;
+    margin: 0;
+    display: inline-block; */
+    /* color: gray; */
+    color: black;
+    background-color: rgb(255, 218, 138);
+}
+
+/* *************************NEW ENTRY***************** */
+
+.newEntry {
+    margin-left: 35%;
+}
+
+/* ******************************************* ADD BUTTON */
+#btnAdd {
+    position: absolute;
+    margin-left: -50px;
+    background-color: rgb(149, 210, 186);
+    border-radius: 100px;
+    border: none;
+}
+
+#btnAdd:hover{
+    background-color: rgb(89, 196, 153);
+}
+
+.imgAdd {
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    position: relative;
+    
+}
+
+/* ******************************************* INPUT BOX */
+.textbox {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 247, 247);
+    box-sizing: border-box;
+    border: 3px solid rgb(22, 21, 29);
+    outline: none;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+.textbox:focus {
+    border: 3px solid rgb(103, 207, 165);
+}
+
+/* ******************************************** ITEM LIST */
+.list {
+    margin-top: 50px;;
+    list-style-type: none;
+}
+
+.itemBox {
+    margin: 0 auto;
+    margin-left: 25%;
+    width: 40%;
+    padding: 20px;
+    color: rgb(61, 61, 61);
+    background-color:rgba(252, 232, 191, 0.89);
+    margin-top: 5px;
+    border-radius: 15px;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+/* *****************************************SUBMIT BUTTON */
+#btnSubmit {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(149, 210, 186);
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+
+}
+
+#btnSubmit:hover{
+    background-color: rgb(89, 196, 153);
+}
+
+/* *****************************************CLEAR BUTTON */
+
+.clear {
+    margin-top: 50px;
+}
+
+.btnClear {
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 144, 129, 0.932);
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.btnClear:hover {
+    background-color: rgba(255, 125, 108, 0.932);
+
+}
+
+/* 
+background-color: rgb(22, 21, 29);
+today-color: rgb(255, 218, 138);
+btn-color: rgb(149, 210, 186);
+btnHover-color: rgba(255, 125, 108, 0.932);
+textbox-color:rgba(252, 232, 191, 0.89);
+*/

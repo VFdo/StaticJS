@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/dice.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+    <title>Dice Game</title>
+</head>
+<body>
+    <header>
+<!-- navbar -->
+<div class="nav">
+    <ul class="nav-bar">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="./todo.html">TO DO APP</a></li>
+        <li id="active"><a href="./dice.html">DICE GAME</a></li>
+    </ul>
+</div>
+        <h1>DICE GAME</h1>
+        <img src="/css/images/dice.png" alt="Dice Game logo" class="imgDice">
+    </header>
+    <main>
+<!-- roll -->
+        <div class="roll">
+            <button class="btnRoll" id="btnDice1">Roll 1</button>
+            <button class="btnRoll" id="btnDice2">Roll 2</button>
+        </div>
+<!-- status -->
+        <div class="statusDiv" id="statusDiv">
+
+        </div>
+<!-- dice -->
+        <div class="dieDiv">
+            <div class="hide" id="dice_1"></div>
+            <div class="hide" id="dice_2"></div>
+            
+        </div>
+        
+<!-- buttons -->
+        <div class="buttonDiv">
+            <button class="button" id="btnStatus">GO</button>
+            <button class="button" id="btnRefresh">Re-Play</button>
+        </div>
+        <script src="/js/dice.js"></script>
+    </main>
+    <footer></footer>
+</body>
+</html>

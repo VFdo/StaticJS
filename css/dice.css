@@ -1,0 +1,213 @@
+body {
+    color: rgb(196, 196, 196);
+    font-family: 'Spartan', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+/* ********************************HEADER */
+header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* ************************NAVBAR */
+.nav-bar {
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-bar li {
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+#active {
+    border-bottom: 2px solid gray;
+    padding: 6px;
+}
+
+h1 {
+    padding-top: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.imgDice {
+    padding-left: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+/* ********************************BODY */
+body {
+    background-color: rgb(22, 21, 29);
+}
+
+/* ************************DICE */
+.roll {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+.btnRoll {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    padding: 20px;
+    outline: none;
+    font-family: 'Spartan', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(255, 223, 174);
+    border-radius: 10px;
+
+}
+
+.btnRollClicked {
+    background-color: rgb(209, 252, 255);
+    box-shadow: -1px -1px 10px 3px rgb(200, 255, 255);
+}
+
+/* ************************DICE */
+.dieDiv {
+    display: block;
+    text-align: center;
+}
+
+.dice {
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(246, 255, 169);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    box-shadow: -1px -1px 10px 1px rgb(246, 255, 169);
+}
+
+.die1 {
+    background-image: url(/css/images/dice_1.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-position-x: center;
+}
+
+.die2 {
+    background-image: url(/css/images/dice_2.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-position-x: center;
+}
+
+.die3 {
+    background-image: url(/css/images/dice_3.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-position-x: center;
+}
+
+.die4 {
+    background-image: url(/css/images/dice_4.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-position-x: center;
+}
+
+.die5 {
+    background-image: url(/css/images/dice_5.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-position-x: center;
+}
+
+.die6 {
+    background-image: url(/css/images/dice_6.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-position-x: center;
+}
+
+/* ************************BUTTONS */
+.buttonDiv {
+    margin-top: 40px;
+    text-align: center;
+    /* margin-left: 5%; */
+}
+
+.button {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Spartan', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#btnStatus {
+    background-color: rgb(224, 255, 224);
+}
+
+#btnStatus:hover {
+    background-color: rgb(161, 255, 181);
+}
+
+#btnRefresh {
+    background-color: rgb(255, 226, 217);
+}
+
+#btnRefresh:hover {
+    background-color: rgb(255, 177, 174);
+}
+/* ************************STATUS */
+.statusDiv {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.winner {
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+
+.loser {
+    color: rgb(196, 196, 196);
+    padding: 0;
+}
+
+.win {
+    background-image: url(/css/images/winner.png);
+    background-size: 90%;
+    background-position-x: 10%;
+}

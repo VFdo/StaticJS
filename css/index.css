@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Spartan', sans-serif;
+    background-color: rgb(22, 21, 29);
+}
+
+header h1 {
+    color: gray;
+    text-align: center;
+}
+
+.btnDiv {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.button {
+    background-color:  rgb(52, 50, 70);
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin: 0;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.button:hover {
+    background-color: rgb(81, 80, 92);
+    color: gainsboro;
+}
+
+.link {
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 25px;
+    color: white;
+    font-family: 'Spartan', sans-serif;
+
+}
+
+
+.link h4 {
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+
+.link img {
+    width: 40px;
+    height: 40px;
+    padding-top: 30px;
+    padding-right: 10px;
+    /* margin-top: 20px; */
+}
+
+
+/* ************************NAVBAR */
+.nav-bar {
+    padding: 0;
+    padding-top: 5px;
+    margin: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-bar li {
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-top: -20px;
+    margin-left: 7px;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+#active {
+    border-bottom: 2px solid gray;
+    padding: 6px;
+}

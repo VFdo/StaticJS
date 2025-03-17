@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/todo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+    <title>ToDo App</title>
+</head>
+<body>
+    <header>
+<!-- navbar -->
+        <div class="nav">
+            <ul class="nav-bar">
+                <li><a href="../index.html">HOME</a></li>
+                <li id="active"><a href="./todo.html">TO DO APP</a></li>
+                <li><a href="./dice.html">DICE GAME</a></li>
+            </ul>
+        </div>
+
+        <h1>TODO APP</h1>
+    </header>
+    <main>
+<!-- calendar  -->
+         <div class="calendar" id="calendar"></div>
+
+<!-- new entry -->
+         <div class="newEntry" id="newEntry">
+            <button id="btnAdd"><img src="/css/images/plus.png" alt="Add Button" class="imgAdd"></button>
+         </div>
+
+<!-- list -->
+         <div class="listDiv" id="listDiv">
+            <ul class="list" id="list"></ul>
+         </div>
+
+<!-- clear -->
+         <div class="clear">
+             <button class="btnClear" id="btnClear">Clear All</button>
+         </div>
+
+    </main>
+    <footer></footer>
+    <script src="/js/todo.js"></script>
+</body>
+</html>
