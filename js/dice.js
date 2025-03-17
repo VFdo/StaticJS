@@ -1,4 +1,4 @@
-// ****************************ROLL**********************************
+// ****************************ROLL*********************************
 const roll1 = document.getElementById('btnDice1');
 const roll2 = document.getElementById('btnDice2');
 const die_1 = document.getElementById('dice_1');
